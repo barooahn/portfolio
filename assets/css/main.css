@@ -338,12 +338,12 @@ br.clear {
 .title1 {
   font-size: 6em;
   line-height: 0.8em;
-  text-shadow: #000 1px 0 2px;
+  text-shadow: #000 1px 0 25px;
 }
 
 .title2 {
   font-size: 3.3em;
-  text-shadow: #000 1px 0 2px;
+  text-shadow: #000 1px 0 25px;
   line-height: 1em;
 }
 

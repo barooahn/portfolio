@@ -333,6 +333,17 @@ br.clear {
   margin: 0 auto;
   max-width: 100%;
   width: 1400px;
+  text-shadow: #000 1px 0 2px;
+}
+
+.title1 {
+  font-size: 6em;
+  line-height: 0.8em;
+  text-shadow: #000 1px 0 2px;
+}
+
+.title2 {
+  font-size: 3.3em;
 }
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2733,8 +2744,16 @@ button:active,
   #footer .copyright li:first-child {
     margin-top: 0;
   }
+  .title1 {
+    font-size: 4em;
+    line-height: 0.8em;
+  }
+
+  .title2 {
+    font-size: 2.3em;
+  }
 }
 
 .main-image {
-  margin-top: 250px;
+  margin-top: 150px;
 }

@@ -178,7 +178,7 @@ body {
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
-  color: #888;
+  color: #222;
 }
 
 body.is-preload *,
@@ -1871,6 +1871,12 @@ article:last-child {
 .image img {
   display: block;
   width: 100%;
+  transition: transform 0.4s;
+}
+.fit img:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .image.avatar48 {

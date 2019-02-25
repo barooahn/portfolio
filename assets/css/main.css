@@ -2769,3 +2769,7 @@ button:active,
 .main-image {
   margin-top: 150px;
 }
+
+.text-item {
+  text-align: left;
+}

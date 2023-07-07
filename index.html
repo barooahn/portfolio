@@ -1,639 +1,743 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>My Portfolio</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  </head>
-  <body class="is-preload">
-    <!-- Header -->
-    <div id="header">
-      <div class="top">
-        <!-- Logo -->
-        <div id="logo">
-          <span class="image avatar48"
-            ><img src="assets/css/images/me.png" alt=""
-          /></span>
-          <h1 id="title">Nicholas R Barooah</h1>
-          <p>Full Stack Developer</p>
-        </div>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+		<div id="header">
+			<div class="top">
+				<!-- Logo -->
+				<div id="logo">
+					<span class="image avatar48"
+						><img src="assets/css/images/me.png" alt=""
+					/></span>
+					<h1 id="title">Nicholas R Barooah</h1>
+					<p>Front End Developer</p>
+				</div>
 
-        <!-- Nav -->
-        <nav id="nav">
-          <ul>
-            <li>
-              <a href="#top" id="top-link"
-                ><span class="icon fa-home">Intro</span></a
-              >
-            </li>
-            <li>
-              <a href="#portfolio" id="portfolio-link"
-                ><span class="icon fa-th">Portfolio</span></a
-              >
-            </li>
-            <li>
-              <a href="#about" id="about-link"
-                ><span class="icon fa-user">About Me</span></a
-              >
-            </li>
-            <li>
-              <a href="#skillcloud" id="contact-link"
-                ><span class="icon fa-envelope">Skill Cloud</span></a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li>
+							<a href="#top" id="top-link"
+								><span class="icon fa-home"
+									>Intro</span
+								></a
+							>
+						</li>
+						<li>
+							<a href="#portfolio" id="portfolio-link"
+								><span class="icon fa-th"
+									>Portfolio</span
+								></a
+							>
+						</li>
+						<li>
+							<a href="#about" id="about-link"
+								><span class="icon fa-user"
+									>About Me</span
+								></a
+							>
+						</li>
+						<li>
+							<a href="#skillcloud" id="contact-link"
+								><span class="icon fa-envelope"
+									>Skill Cloud</span
+								></a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
-      <div class="bottom">
-        <!-- Social Icons -->
-        <ul class="icons">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/nicholas-barooah-50455015/"
-              target="_blank"
-              class="icon fa-linkedin"
-              ><span class="label">LinkedIn</span></a
-            >
-          </li>
+			<div class="bottom">
+				<!-- Social Icons -->
+				<div id="theme-toggle-container">
+					<button id="theme-toggle">Toggle Dark Theme</button>
+				</div>
+				<ul class="icons">
+					<li>
+						<a
+							href="https://www.linkedin.com/in/nicholas-barooah-50455015/"
+							target="_blank"
+							class="icon fa-linkedin"
+							><span class="label">LinkedIn</span></a
+						>
+					</li>
 
-          <li>
-            <a
-              href="https://github.com/barooahn"
-              target="_blank"
-              class="icon fa-github"
-              ><span class="label">Github</span></a
-            >
-          </li>
+					<li>
+						<a
+							href="https://github.com/barooahn"
+							target="_blank"
+							class="icon fa-github"
+							><span class="label">Github</span></a
+						>
+					</li>
 
-          <li>
-            <a href="mailto:barooahn@gmail.com" class="icon fa-envelope"
-              ><span class="label">Email</span></a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
+					<li>
+						<a
+							href="mailto:barooahn@gmail.com"
+							class="icon fa-envelope"
+							><span class="label">Email</span></a
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-    <!-- Main -->
-    <div id="main">
-      <!-- Intro -->
-      <section id="top" class="one dark cover">
-        <div class="container main-image">
-          <header>
-            <span class="title1"> WELCOME </span><br />
-            <span class="title2"> TO MY PORTFOLIO </span><br /><br />
-            <span class="title-body">
-              Below are examples of my work. I am a full stack <br />
-              dev specialising in frontend React and Javascript
-            </span>
-          </header>
+		<!-- Main -->
+		<div id="main">
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container main-image">
+					<header>
+						<span class="title1"> WELCOME </span><br />
+						<span class="title2"> TO MY PORTFOLIO </span
+						><br /><br />
+						<span class="title-body">
+							Below are examples of my work. I am a
+							frontend <br />
+							dev specialising in frontend React and
+							Javascript
+						</span>
+					</header>
 
-          <footer>
-            <a href="#portfolio" class="button scrolly">Start</a>
-          </footer>
-        </div>
-      </section>
+					<footer>
+						<a href="#portfolio" class="button scrolly"
+							>Start</a
+						>
+					</footer>
+				</div>
+			</section>
 
-      <!-- Portfolio -->
-      <section id="portfolio" class="two">
-        <div class="container">
-          <header>
-            <h3>I'm currently working on...</h3>
-          </header>
-          <br />
+			<!-- Portfolio -->
+			<section id="portfolio" class="two">
+				<div class="container">
+					<header>
+						<h2>I'm currently working on...</h2>
+					</header>
+					<br />
 
-          <div class="row">
-            <div class="col-6 col-12-mobile">
-              <article class="item">
-                <img
-                  class="image fit"
-                  src="assets/css/images/stockMarket.jpeg"
-                  alt="Stock Market"
-                />
-                <header>
-                  <h3>Coming soon...</h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-6 col-12-mobile">
-              <article class="text-item">
-                <p>
-                  I am currently working in collabloration with another
-                  developer on a Machine Leaning app. The app takes various big
-                  data inputs and learns how great an impact each one has on a
-                  stock market.
-                </p>
-                <p>
-                  The app is still in early development and has no UI at
-                  present. It is built using a React, Node and Python
-                </p>
-              </article>
-            </div>
-          </div>
-          <br />
-          <br />
-          <header>
-            <h3>Live full sites - (click to visit)</h3>
-          </header>
-          <br />
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://nextjs-yossie-menu.vercel.app/"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/yossie_menu_thumb.jpg"
+										alt="Spice Island Indonesia - Next.js"
+								/></a>
+								<header>
+									<h3>
+										Click the thumbnail to view
+									</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<article class="text-item">
+								<p>
+									This site showcases the development
+									of the Spice Island Indonesia
+									website, an online platform for
+									authentic Indonesian cuisine. The
+									site, built using Next.js, was
+									crafted with the assistance of AI
+									technologies, including GPT-4 for
+									content generation and Midjourney
+									for image creation. This project
+									exemplifies the innovative use of
+									AI in crafting engaging and
+									user-friendly digital experiences.
+								</p>
+							</article>
+						</div>
+					</div>
+					<br />
+					<br />
+					<header>
+						<h2>Live full sites - (click to visit)</h2>
+					</header>
+					<br />
 
-          <div class="row">
-            <div class="col-6 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://theCalibrationPeople.Pilkington.com"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/theCalibrationPeople.jpg"
-                    alt="The Calibration People = SiteCore"
-                /></a>
-                <header>
-                  <h3>The Calibration People - SiteCore</h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-6 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://materialsshare.com"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/materialsshareThumb.jpg"
-                    alt="MaterialsShare - PHP-Laravel"
-                /></a>
-                <header>
-                  <h3>
-                    MaterialsShare - JS full stack - React Node Express MongoDB
-                  </h3>
-                </header>
-              </article>
-            </div>
-          </div>
-          <br />
-          <br />
-          <header>
-            <h3>Recent work</h3>
-          </header>
-          <br />
-          <div class="row">
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://www.pilkington.com/nl-nl/nl/news-insights/dfgfdg"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/404.jpg"
-                    alt="404 page with dynamic links"
-                /></a>
-                <header>
-                  <h3>404 page with dynamic links - JavaScript</h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <img
-                  class="image fit"
-                  src="assets/css/images/MyPilkington.jpg"
-                  alt="Shopping cart front end and API - JavaScript"
-                />
-                <header>
-                  <h3>
-                    Shopping cart front end and API - JavaScript - Auth required
-                  </h3>
-                </header>
-              </article>
-            </div>
+					<div class="row">
+						<div class="col-6 col-12-mobile live-site">
+							<article class="item live-site-article">
+								<a
+									href="https://www.travelrepublic.co.uk/"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/travel_republic.jpg"
+										alt="Travel Republic - Next.js GraphQL"
+								/></a>
+								<header>
+									<h3>
+										Travel Republic - Next.js
+										GraphQL
+									</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-6 col-12-mobile live-site">
+							<article class="item live-site-article">
+								<a
+									href="https://theCalibrationPeople.Pilkington.com"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/theCalibrationPeople.jpg"
+										alt="The Calibration People = SiteCore"
+								/></a>
+								<header>
+									<h3>
+										The Calibration People -
+										SiteCore
+									</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+					<br />
+					<br />
+					<header>
+						<h2>Recent work</h2>
+					</header>
+					<br />
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://www.pilkington.com/nl-nl/nl/news-insights/dfgfdg"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/404.jpg"
+										alt="404 page with dynamic links"
+								/></a>
+								<header>
+									<h3>
+										404 page with dynamic links -
+										JavaScript
+									</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<img
+									class="image fit"
+									src="assets/css/images/MyPilkington.jpg"
+									alt="Shopping cart front end and API - JavaScript"
+								/>
+								<header>
+									<h3>
+										Shopping cart front end and
+										API - JavaScript - Auth
+										required
+									</h3>
+								</header>
+							</article>
+						</div>
 
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://www.pilkington.com/en-gb/uk/site-tools/search?q=glass"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/PilkingtonSearch.jpg"
-                    alt="Bing Search API - C# . NET"
-                /></a>
-                <header>
-                  <h3>Bing Search API - C# . NET</h3>
-                </header>
-              </article>
-            </div>
-          </div>
-          <br />
-          <br />
-          <h3>Demos, programming and front end - (click to visit)</h3>
-          <br />
-          <br />
-          <div class="row">
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://barooahn.github.io/thomas/"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/thomas.jpg"
-                    alt="Rotating building, Svg and Rollovers  "
-                /></a>
-                <header>
-                  <h3>Rotating Building JavaScript and Svg</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/NNELzW"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/wikipedia.jpg"
-                    alt="Wikipedia viever -
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://www.pilkington.com/en-gb/uk/site-tools/search?q=glass"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/PilkingtonSearch.jpg"
+										alt="Bing Search API - C# . NET"
+								/></a>
+								<header>
+									<h3>Bing Search API - C# . NET</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+					<br />
+					<br />
+					<h2>
+						Demos, programming and front end - (click to
+						visit)
+					</h2>
+					<br />
+					<br />
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://barooahn.github.io/thomas/"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/thomas.jpg"
+										alt="Rotating building, Svg and Rollovers  "
+								/></a>
+								<header>
+									<h3>
+										Rotating Building JavaScript
+										and Svg
+									</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/NNELzW"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/wikipedia.jpg"
+										alt="Wikipedia viever -
                   JavaScript"
-                /></a>
-                <header>
-                  <h3>Wikipedia viever - JavaScript</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/GZwoeV"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/quotes.jpg"
-                    alt="Random Quotes - JavaScript"
-                /></a>
-                <header>
-                  <h3>Random Quotes - JavaScript</h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/xVMozo"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/tic-tac-toe.jpg"
-                    alt="Tic-Tac-Toe Javascript"
-                /></a>
-                <header>
-                  <h3>Tic-Tac-Toe Javascript</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/aNXgKr"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/SimonGame.jpg"
-                    alt="Simon Game - Javascript"
-                /></a>
-                <header>
-                  <h3>Simon Game - Javascript</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/pqodOX"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/DrumMachine.jpg"
-                    alt="Drum Machine - React"
-                /></a>
-                <header>
-                  <h3>Drum Machine - React</h3>
-                </header>
-              </article>
-            </div>
+								/></a>
+								<header>
+									<h3>
+										Wikipedia viever - JavaScript
+									</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/GZwoeV"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/quotes.jpg"
+										alt="Random Quotes - JavaScript"
+								/></a>
+								<header>
+									<h3>Random Quotes - JavaScript</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/xVMozo"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/tic-tac-toe.jpg"
+										alt="Tic-Tac-Toe Javascript"
+								/></a>
+								<header>
+									<h3>Tic-Tac-Toe Javascript</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/aNXgKr"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/SimonGame.jpg"
+										alt="Simon Game - Javascript"
+								/></a>
+								<header>
+									<h3>Simon Game - Javascript</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/pqodOX"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/DrumMachine.jpg"
+										alt="Drum Machine - React"
+								/></a>
+								<header>
+									<h3>Drum Machine - React</h3>
+								</header>
+							</article>
+						</div>
 
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/rPYbNg"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/WeatherCodePen.jpg"
-                    alt="Weather - JavaScript Ajax  "
-                /></a>
-                <header>
-                  <h3>Weather - JavaScript Ajax</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/MyLmQm"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/calculator.jpg"
-                    alt="Calcular - JavaScript"
-                /></a>
-                <header>
-                  <h3>Calcular - JavaScript</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/wGNmGg"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/popodoro.jpg"
-                    alt="Popodoro Clock - JavaScript"
-                /></a>
-                <header>
-                  <h3>Popodoro Clock - JavaScript</h3>
-                </header>
-              </article>
-            </div>
-          </div>
-          <br />
-          <br />
-          <h3>D3 JavaScript - Big Data Visualization</h3>
-          <br />
-          <br />
-          <div class="row">
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/PXGdaZ"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/d3BarChart.jpg"
-                    alt="GDP USA - 1945 - 2017"
-                /></a>
-                <header>
-                  <h3>GDP 1945 - 2017 - USA - Bar Chart</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/jXBKYm"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/d3ChoroplethMap.jpg"
-                    alt="USA - Adults Percent Under 25 year old with a degree"
-                /></a>
-                <header>
-                  <h3>
-                    USA - Adults Percent Under 25 year old with a degree -
-                    Choropleth Map
-                  </h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/bOgxvG"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/d3HeatMap.jpg"
-                    alt="Monthly Global Land Surface Temperature"
-                /></a>
-                <header>
-                  <h3>Monthly Global Land Surface Temperaturet - Heat Map</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/qLreeo"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/d3TreeMap.jpg"
-                    alt="Hightest Grossing Movies..."
-                /></a>
-                <header>
-                  <h3>Hightest Grossing Movies... Tree Map</h3>
-                </header>
-              </article>
-            </div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/rPYbNg"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/WeatherCodePen.jpg"
+										alt="Weather - JavaScript Ajax  "
+								/></a>
+								<header>
+									<h3>Weather - JavaScript Ajax</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/MyLmQm"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/calculator.jpg"
+										alt="Calcular - JavaScript"
+								/></a>
+								<header>
+									<h3>Calcular - JavaScript</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/wGNmGg"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/popodoro.jpg"
+										alt="Popodoro Clock - JavaScript"
+								/></a>
+								<header>
+									<h3>
+										Popodoro Clock - JavaScript
+									</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+					<br />
+					<br />
+					<h2>D3 JavaScript - Big Data Visualization</h2>
+					<br />
+					<br />
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/PXGdaZ"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/d3BarChart.jpg"
+										alt="GDP USA - 1945 - 2017"
+								/></a>
+								<header>
+									<h3>
+										GDP 1945 - 2017 - USA - Bar
+										Chart
+									</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/jXBKYm"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/d3ChoroplethMap.jpg"
+										alt="USA - Adults Percent Under 25 year old with a degree"
+								/></a>
+								<header>
+									<h3>
+										USA - Adults Percent Under 25
+										year old with a degree -
+										Choropleth Map
+									</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/bOgxvG"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/d3HeatMap.jpg"
+										alt="Monthly Global Land Surface Temperature"
+								/></a>
+								<header>
+									<h3>
+										Monthly Global Land Surface
+										Temperaturet - Heat Map
+									</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/qLreeo"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/d3TreeMap.jpg"
+										alt="Hightest Grossing Movies..."
+								/></a>
+								<header>
+									<h3>
+										Hightest Grossing Movies...
+										Tree Map
+									</h3>
+								</header>
+							</article>
+						</div>
 
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="https://codepen.io/barooahn/full/MZbRJJ"
-                  target="_blank"
-                  class="image fit"
-                  ><img
-                    src="assets/css/images/d3scatterPlot.jpg"
-                    alt="35 Fastest Fiders - Doping Allegations - Scatter Graph"
-                /></a>
-                <header>
-                  <h3>
-                    35 Fastest Fiders - Doping Allegations - Scatter Graph
-                  </h3>
-                </header>
-              </article>
-            </div>
-          </div>
-          <br />
-          <br />
-          <h3>Miscalanious - Adobe and Ecommerce Guide</h3>
-          <br />
-          <br />
-          <div class="row">
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <video class="image fit" controls>
-                  <source
-                    src="assets/css/images/eCommerce_business.mp4"
-                    type="video/mp4"
-                  />
-                </video>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="https://codepen.io/barooahn/full/MZbRJJ"
+									target="_blank"
+									class="image fit"
+									><img
+										src="assets/css/images/d3scatterPlot.jpg"
+										alt="35 Fastest Fiders - Doping Allegations - Scatter Graph"
+								/></a>
+								<header>
+									<h3>
+										35 Fastest Fiders - Doping
+										Allegations - Scatter Graph
+									</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+					<br />
+					<br />
+					<h2>Miscalanious - Adobe and Ecommerce Guide</h2>
+					<br />
+					<br />
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<video class="image fit" controls>
+									<source
+										src="assets/css/images/eCommerce_business.mp4"
+										type="video/mp4"
+									/>
+								</video>
 
-                <header>
-                  <h3>Adobe Premire - eCommerceNorthWest Promo</h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <video class="image fit" controls>
-                  <source
-                    src="assets/css/images/chicIndahWebsiteVideo.mp4"
-                    type="video/mp4"
-                  />
-                </video>
+								<header>
+									<h3>
+										Adobe Premire -
+										eCommerceNorthWest Promo
+									</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<video class="image fit" controls>
+									<source
+										src="assets/css/images/chicIndahWebsiteVideo.mp4"
+										type="video/mp4"
+									/>
+								</video>
 
-                <header>
-                  <h3>Adobe Premire - ChicIndah Promo</h3>
-                </header>
-              </article>
-            </div>
+								<header>
+									<h3>
+										Adobe Premire - ChicIndah
+										Promo
+									</h3>
+								</header>
+							</article>
+						</div>
 
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a
-                  href="assets/css/images/eCommerceNorthWest_guide.pdf"
-                  target="_blank"
-                  class="image fit"
-                  download="eCommerceNorthWest_guide.pdf"
-                  ><img
-                    src="assets/css/images/facebook_page.jpg"
-                    alt="49 Page booklet on Ecommerce - Adobe In Design"
-                /></a>
-                <header>
-                  <h3>49 Page Guide On Ecommerce - Adobe In Design</h3>
-                </header>
-              </article>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <img
-                  class="image fit"
-                  src="assets/css/images/VinPosters.jpg"
-                  alt="49 Page booklet on Ecommerce - Adobe In Design"
-                />
-                <header>
-                  <h3>Graphic design Posters - Photoshop & Illustrator</h3>
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <img
-                  class="image fit"
-                  src="assets/css/images/euroMechLogo.jpg"
-                  alt="49 Page booklet on Ecommerce - Adobe In Design"
-                />
-                <header>
-                  <h3>Graphic design Logos - Illustrator</h3>
-                </header>
-              </article>
-            </div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a
+									href="assets/css/images/eCommerceNorthWest_guide.pdf"
+									target="_blank"
+									class="image fit"
+									download="eCommerceNorthWest_guide.pdf"
+									><img
+										src="assets/css/images/facebook_page.jpg"
+										alt="49 Page booklet on Ecommerce - Adobe In Design"
+								/></a>
+								<header>
+									<h3>
+										49 Page Guide On Ecommerce -
+										Adobe In Design
+									</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<img
+									class="image fit"
+									src="assets/css/images/VinPosters.jpg"
+									alt="49 Page booklet on Ecommerce - Adobe In Design"
+								/>
+								<header>
+									<h3>
+										Graphic design Posters -
+										Photoshop & Illustrator
+									</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<img
+									class="image fit"
+									src="assets/css/images/euroMechLogo.jpg"
+									alt="49 Page booklet on Ecommerce - Adobe In Design"
+								/>
+								<header>
+									<h3>
+										Graphic design Logos -
+										Illustrator
+									</h3>
+								</header>
+							</article>
+						</div>
 
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <img
-                  class="image fit"
-                  src="assets/css/images/LogosForBart.svg"
-                  alt="49 Page booklet on Ecommerce - Adobe In Design"
-                />
-                <header>
-                  <h3>Graphic design Logos - Illustrator</h3>
-                </header>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<img
+									class="image fit"
+									src="assets/css/images/LogosForBart.svg"
+									alt="49 Page booklet on Ecommerce - Adobe In Design"
+								/>
+								<header>
+									<h3>
+										Graphic design Logos -
+										Illustrator
+									</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <!-- About Me -->
-      <section id="about" class="three">
-        <div class="container">
-          <header>
-            <h2>About Me</h2>
-          </header>
+			<!-- About Me -->
+			<section id="about" class="three">
+				<div class="container">
+					<header>
+						<h2>About Me</h2>
+					</header>
 
-          <a href="#" target="_blank" class="image featured"
-            ><img
-              src="assets/css/images/about_me.jpg"
-              alt="about me image computer"
-          /></a>
+					<a href="#" target="_blank" class="image featured"
+						><img
+							src="assets/css/images/about_me.jpg"
+							alt="about me image computer"
+					/></a>
 
-          <p>
-            I have always been interested in innovaton and the cutting edge. As
-            a youngster I attempted to code games with features I handn’t seen
-            before. In my work life I have created new software that saved
-            various companies time and money. From completing full life cycle
-            design and development of a complex websites I have found my
-            greatest interest lies in development. I would now like to hone my
-            skills in this field working as a frontend or fullstack developer.
-          </p>
-        </div>
-      </section>
+					<p>
+						With a lifelong passion for innovation and the
+						cutting edge, my journey in technology began as a
+						young coder, crafting unique game features that
+						pushed boundaries. This early fascination has
+						evolved into a successful career, where I've
+						developed transformative software solutions that
+						have saved companies significant time and money.
+					</p>
+					<p>
+						My experience spans the full life cycle of design
+						and development, with a particular focus on
+						complex websites. Recently, I've expanded my skill
+						set to include DevOps, Next.js, and GraphQL,
+						further enhancing my capabilities as a developer.
+					</p>
+					<p>
+						My greatest interest lies in development,
+						specifically as a frontend or fullstack developer.
+						I'm particularly intrigued by the potential of AI
+						technologies like GPT-4 and Midjourney, and I'm
+						eager to explore how these tools can revolutionize
+						the development process.
+					</p>
+					<p>
+						As I continue to hone my skills and delve deeper
+						into the realm of AI, I look forward to creating
+						more efficient, dynamic, and innovative solutions
+						that drive progress and redefine the technological
+						landscape.
+					</p>
+				</div>
+			</section>
 
-      <!-- Contact -->
-      <section id="skillcloud" class="four">
-        <div class="container">
-          <header>
-            <h2>Skill cloud</h2>
-          </header>
-          <picture>
-            <source
-              media="(min-width: 650px)"
-              srcset="assets/css/images/skillCloudDesktop.png"
-            />
-            <source
-              media="(min-width: 300px)"
-              srcset="assets/css/images/skillCloudMobile.png"
-            />
-            <img
-              src="assets/css/images/skillCloudDesktop.png"
-              alt="FloSkill Cloud imagewers"
-              style="width: 100%"
-            />
-          </picture>
-        </div>
-      </section>
-    </div>
+			<!-- Contact -->
+			<section id="skillcloud" class="four">
+				<div class="container">
+					<header>
+						<h2>Skill cloud</h2>
+					</header>
+					<picture>
+						<source
+							media="(min-width: 650px)"
+							srcset="
+								assets/css/images/skillCloudDesktop.png
+							"
+						/>
+						<source
+							media="(min-width: 300px)"
+							srcset="
+								assets/css/images/skillCloudMobile.png
+							"
+						/>
+						<img
+							src="assets/css/images/skillCloudDesktop.png"
+							alt="FloSkill Cloud imagewers"
+							style="width: 100%"
+						/>
+					</picture>
+				</div>
+			</section>
+		</div>
 
-    <!-- Footer -->
-    <div id="footer">
-      <!-- Copyright -->
-      <ul class="copyright">
-        <li>
-          <a
-            href="https://www.linkedin.com/in/nicholas-barooah-50455015/"
-            target="_blank"
-            class="icon fa-linkedin"
-            ><span class="label">LinkedIn</span></a
-          >
-        </li>
+		<!-- Footer -->
+		<div id="footer">
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					<a
+						href="https://www.linkedin.com/in/nicholas-barooah-50455015/"
+						target="_blank"
+						class="icon fa-linkedin"
+						><span class="label">LinkedIn</span></a
+					>
+				</li>
 
-        <li>
-          <a
-            href="https://github.com/barooahn"
-            target="_blank"
-            class="icon fa-github"
-            ><span class="label">Github</span></a
-          >
-        </li>
+				<li>
+					<a
+						href="https://github.com/barooahn"
+						target="_blank"
+						class="icon fa-github"
+						><span class="label">Github</span></a
+					>
+				</li>
 
-        <li>
-          <a href="mailto:barooahn@gmail.com" class="icon fa-envelope"
-            ><span class="label">Email</span></a
-          >
-        </li>
+				<li>
+					<a
+						href="mailto:barooahn@gmail.com"
+						class="icon fa-envelope"
+						><span class="label">Email</span></a
+					>
+				</li>
 
-        <li>
-          <a href="mailto:barooahn@gmail.com"
-            ><span class="label">barooahn@gmail.com</span></a
-          >
-        </li>
-      </ul>
-    </div>
+				<li>
+					<a href="mailto:barooahn@gmail.com"
+						><span class="label">barooahn@gmail.com</span></a
+					>
+				</li>
+			</ul>
+		</div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/dark-theme.js"></script>
+	</body>
 </html>

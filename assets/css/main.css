@@ -2797,6 +2797,7 @@ button:active,
 	justify-content: space-between;
 	flex-direction: column;
 	background-color: #fff !important;
+	width:100%;
 }
 
 #theme-toggle-container {

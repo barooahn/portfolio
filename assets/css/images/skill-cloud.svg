@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 964 392.74">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21 {
+        font-family: CascadiaCode-Regular, 'Cascadia Code';
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-2 {
+        font-size: 20.91px;
+      }
+
+      .cls-3 {
+        font-size: 53.62px;
+      }
+
+      .cls-4 {
+        font-size: 32.91px;
+      }
+
+      .cls-5 {
+        font-size: 17px;
+      }
+
+      .cls-6 {
+        font-size: 27.7px;
+      }
+
+      .cls-7 {
+        font-size: 15.05px;
+      }
+
+      .cls-8 {
+        font-size: 24.46px;
+      }
+
+      .cls-9 {
+        font-size: 32.39px;
+      }
+
+      .cls-10 {
+        font-size: 25.6px;
+      }
+
+      .cls-11 {
+        font-size: 21px;
+      }
+
+      .cls-12 {
+        font-size: 20.48px;
+      }
+
+      .cls-13 {
+        font-size: 29.75px;
+      }
+
+      .cls-14 {
+        font-size: 27.89px;
+      }
+
+      .cls-15 {
+        font-size: 16.87px;
+      }
+
+      .cls-16 {
+        font-size: 28.7px;
+      }
+
+      .cls-17 {
+        font-size: 41.81px;
+      }
+
+      .cls-18 {
+        font-size: 22.95px;
+      }
+
+      .cls-19 {
+        font-size: 24.14px;
+      }
+
+      .cls-20 {
+        font-size: 17.71px;
+      }
+
+      .cls-21 {
+        font-size: 20.14px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-16" transform="translate(0 224.94)"><tspan x="0" y="0">Scrum / Aglile</tspan></text>
+      <text class="cls-17" transform="translate(108.76 140.2)"><tspan x="0" y="0">NextJS</tspan></text>
+      <text class="cls-4" transform="translate(184.94 60.85)"><tspan x="0" y="0">ReactJS</tspan></text>
+      <text class="cls-13" transform="translate(332.24 115.23)"><tspan x="0" y="0">JavaScript</tspan></text>
+      <text class="cls-12" transform="translate(848.24 117.7)"><tspan x="0" y="0">NodeJS</tspan></text>
+      <text class="cls-15" transform="translate(462.25 320.65)"><tspan x="0" y="0">LangChain</tspan></text>
+      <text class="cls-6" transform="translate(416.24 43.22)"><tspan x="0" y="0">TypeScript</tspan></text>
+      <text class="cls-19" transform="translate(697.24 118.08)"><tspan x="0" y="0">GraphQL</tspan></text>
+      <text class="cls-8" transform="translate(795.24 59.78)"><tspan x="0" y="0">API</tspan></text>
+      <text class="cls-1" transform="translate(629.24 65.78)"><tspan x="0" y="0">MongoDB</tspan></text>
+      <text class="cls-11" transform="translate(687.24 17.78)"><tspan x="0" y="0">MySQL</tspan></text>
+      <text class="cls-3" transform="translate(308.35 235.55)"><tspan x="0" y="0">Web Development</tspan></text>
+      <text class="cls-18" transform="translate(779.7 305.07)"><tspan x="0" y="0">Git / GitHub</tspan></text>
+      <text class="cls-9" transform="translate(141.92 313.06)"><tspan x="0" y="0">Jira</tspan></text>
+      <text class="cls-2" transform="translate(286.62 382.64)"><tspan x="0" y="0">CSS/SCSS</tspan></text>
+      <text class="cls-14" transform="translate(306.47 331.25)"><tspan x="0" y="0">HTML</tspan></text>
+      <text class="cls-20" transform="translate(615.7 360.63)"><tspan x="0" y="0">Adobe CS</tspan></text>
+      <text class="cls-21" transform="translate(615.7 319.69)"><tspan x="0" y="0">Figma</tspan></text>
+      <text class="cls-10" transform="translate(874 225.32)"><tspan x="0" y="0">DevOps</tspan></text>
+      <text class="cls-7" transform="translate(462 363.38)"><tspan x="0" y="0">Open AI API</tspan></text>
+      <text class="cls-5" transform="translate(876.06 170.24)"><tspan x="0" y="0">AWS</tspan></text>
+    </g>
+  </g>
+</svg>

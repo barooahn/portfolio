@@ -238,6 +238,10 @@ h6 a strong {
 	color: #333;
 }
 
+h1 {
+	font-size: 3em;
+	letter-spacing: -1px;
+}
 h2 {
 	font-size: 2em;
 	letter-spacing: -1px;
@@ -2803,4 +2807,8 @@ button:active,
 #theme-toggle-container {
 	margin: 10px auto;
 	width: 185px;
+}
+
+header {
+	text-align: center;
 }

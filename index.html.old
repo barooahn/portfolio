@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Nicholas R Barooah - Front End Developer | Innovative Solutions in
+            AI & Web Development
+        </title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+    <body class="is-preload">
+        <!-- Header -->
+        <div id="header">
+            <div class="top">
+                <!-- Logo -->
+                <div id="logo">
+                    <span class="image avatar48"
+                        ><img src="assets/css/images/me.png" alt=""
+                    /></span>
+                    <h1 id="title">Nicholas R Barooah</h1>
+                    <p>Front End Developer</p>
+                </div>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#top" id="top-link"
+                                ><span class="icon fa-home">Intro</span></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#workingOn" id="workingOn-link"
+                                ><span class="icon fa-person-digging"
+                                    >Working on</span
+                                ></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#skillcloud" id="contact-link"
+                                ><span class="icon fa-envelope"
+                                    >Skill Cloud</span
+                                ></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#portfolio" id="portfolio-link"
+                                ><span class="icon fa-th">Portfolio</span></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#about" id="about-link"
+                                ><span class="icon fa-user">About Me</span></a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="bottom">
+                <!-- Social Icons -->
+                <!-- <div id="theme-toggle-container">
+                    <button id="theme-toggle">Toggle Dark Theme</button>
+                </div> -->
+                <ul class="icons">
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/nicholas-barooah-50455015/"
+                            target="_blank"
+                            class="icon fa-linkedin"
+                            ><span class="label">LinkedIn</span></a
+                        >
+                    </li>
+
+                    <li>
+                        <a
+                            href="https://github.com/barooahn"
+                            target="_blank"
+                            class="icon fa-github"
+                            ><span class="label">Github</span></a
+                        >
+                    </li>
+
+                    <li>
+                        <a
+                            href="mailto:barooahn@gmail.com"
+                            class="icon fa-envelope"
+                            ><span class="label">Email</span></a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div id="main">
+            <!-- Intro -->
+            <section id="top" class="one dark cover">
+                <div class="container main-image">
+                    <header>
+                        <a href="#workingOn" class="button scrolly"
+                            >Explore My Work</a
+                        >
+                    </header>
+
+                    <footer>
+                        <h2 class="title1">Welcome to My Digital Showcase</h2>
+                        <h3 class="title2">
+                            A Fusion of AI Ingenuity and Front-End Expertise
+                        </h3>
+                    </footer>
+                </div>
+            </section>
+
+            <!-- Portfolio -->
+            <section id="workingOn" class="two">
+                <div class="container">
+                    <header>
+                        <h2>I'm currently working on...</h2>
+                        <p>(click to visit)</p>
+                    </header>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-6 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://nextjs-yossie-menu.vercel.app/"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/yossie_menu_thumb.jpg"
+                                        alt="Spice Island Indonesia - Next.js"
+                                /></a>
+                                <header>
+                                    <h3>Nextjs, SupaBase, Stripe</h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-6 col-12-mobile">
+                            <article class="text-item">
+                                <p>
+                                    This site showcases the development of the
+                                    Spice Island Indonesia website, an online
+                                    platform for authentic Indonesian cuisine.
+                                    The site, built using Next.js, was crafted
+                                    with the assistance of AI technologies,
+                                    including GPT-4 for content generation and
+                                    Midjourney for image creation. This project
+                                    exemplifies the innovative use of AI in
+                                    crafting engaging and user-friendly digital
+                                    experiences.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="row">
+                        <div class="col-6 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://document-summariser-eight.vercel.app/"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/chat-clause.png"
+                                        alt="Document Summariser - AI-Powered Tool"
+                                /></a>
+                                <header>
+                                    <h3>
+                                        Open Ai API, LangChain, Nextjs,
+                                        SupaBase, Tailwind
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-6 col-12-mobile">
+                            <article class="text-item">
+                                <p>
+                                    Leveraging cutting-edge AI technology, I
+                                    developed an innovative app that efficiently
+                                    summarizes and interprets complex PDF
+                                    documents, particularly legal texts and
+                                    contracts. This tool enables users to ask
+                                    specific questions about the content,
+                                    showcasing my ability to blend AI with
+                                    user-friendly design to solve practical
+                                    challenges in professional settings.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="row">
+                        <div class="col-6 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://ai-telephony.vercel.app/"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/ai-telephone.png"
+                                        alt="AI Telephony - Next-gen Communication Platform"
+                                /></a>
+                                <header>
+                                    <h3>
+                                        Next.js, Tailwind CSS, Vercel AI SDK
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-6 col-12-mobile">
+                            <article class="text-item">
+                                <p>
+                                    AI Telephony is a cutting-edge platform that
+                                    revolutionizes communication by integrating
+                                    AI with telephony services. This project
+                                    showcases my ability to work with advanced
+                                    AI technologies and modern web frameworks.
+                                    It features real-time speech-to-text
+                                    conversion, AI-powered responses, and
+                                    natural language processing capabilities,
+                                    demonstrating the potential of AI in
+                                    enhancing everyday communication tools.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="row">
+                        <div class="col-6 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://aii-nvestor.vercel.app/"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/ai-investor.png"
+                                        alt="AI Investor - Intelligent Investment Assistant"
+                                /></a>
+                                <header>
+                                    <h3>Next.js, Tailwind CSS, OpenAI API</h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-6 col-12-mobile">
+                            <article class="text-item">
+                                <p>
+                                    AI Investor is an innovative platform that
+                                    leverages artificial intelligence to provide
+                                    personalized investment advice and market
+                                    insights. This project demonstrates my
+                                    expertise in creating sophisticated
+                                    AI-driven applications. It features a
+                                    user-friendly interface for querying
+                                    investment-related information, showcasing
+                                    the integration of complex AI models with
+                                    intuitive web design to deliver valuable
+                                    financial guidance.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Skill Cloud -->
+            <section id="skillcloud" class="three">
+                <div class="container">
+                    <header>
+                        <h1>Skill Cloud</h1>
+                        <h2>My Technical Proficiencies at a Glance</h2>
+                    </header>
+                    <br />
+                    <br />
+                    <picture>
+                        <source
+                            media="(min-width: 650px)"
+                            srcset="assets/css/images/skill-cloud.svg"
+                        />
+                        <source
+                            media="(min-width: 300px)"
+                            srcset="assets/css/images/skill-cloud.svg"
+                        />
+                        <img
+                            src="assets/css/images/skill-cloud.svg"
+                            alt="Skill cloud"
+                            style="width: 100%"
+                        />
+                    </picture>
+                </div>
+            </section>
+            <section id="portfolio" class="two">
+                <div class="container">
+                    <header>
+                        <h1>Portfolio</h1>
+                        <h2>Live Industry Production Sites</h2>
+                        <p>(click to visit)</p>
+                    </header>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-6 col-12-mobile live-site">
+                            <article class="item live-site-article">
+                                <a
+                                    href="https://www.travelrepublic.co.uk/"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/travel_republic.jpg"
+                                        alt="Travel Republic - Next.js GraphQL"
+                                /></a>
+                                <header>
+                                    <h3>Travel Republic - Next.js GraphQL</h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-6 col-12-mobile live-site">
+                            <article class="item live-site-article">
+                                <a
+                                    href="https://theCalibrationPeople.Pilkington.com"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/theCalibrationPeople.jpg"
+                                        alt="The Calibration People = SiteCore"
+                                /></a>
+                                <header>
+                                    <h3>The Calibration People - SiteCore</h3>
+                                </header>
+                            </article>
+                        </div>
+                    </div>
+
+                    <br />
+                    <header>
+                        <h2>Live Industry Code</h2>
+                    </header>
+                    <br />
+                    <div class="row">
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://www.pilkington.com/nl-nl/nl/news-insights/dfgfdg"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/404.jpg"
+                                        alt="404 page with dynamic links"
+                                /></a>
+                                <header>
+                                    <h3>
+                                        404 page with dynamic links - JavaScript
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <img
+                                    class="image fit"
+                                    src="assets/css/images/MyPilkington.jpg"
+                                    alt="Shopping cart front end and API - JavaScript"
+                                />
+                                <header>
+                                    <h3>
+                                        Shopping cart front end and API -
+                                        JavaScript - Auth required
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://www.pilkington.com/en-gb/uk/site-tools/search?q=glass"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/PilkingtonSearch.jpg"
+                                        alt="Bing Search API - C# . NET"
+                                /></a>
+                                <header>
+                                    <h3>Bing Search API - C# . NET</h3>
+                                </header>
+                            </article>
+                        </div>
+                    </div>
+
+                    <h2>Demos, programming and front end</h2>
+                    <p>(click to visit)</p>
+
+                    <div class="row">
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://barooahn.github.io/thomas/"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/thomas.jpg"
+                                        alt="Rotating building, Svg and Rollovers  "
+                                /></a>
+                                <header>
+                                    <h3>
+                                        Rotating Building JavaScript and Svg
+                                    </h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/NNELzW"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/wikipedia.jpg"
+                                        alt="Wikipedia viever -
+                  JavaScript"
+                                /></a>
+                                <header>
+                                    <h3>Wikipedia viewer - JavaScript</h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/GZwoeV"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/quotes.jpg"
+                                        alt="Random Quotes - JavaScript"
+                                /></a>
+                                <header>
+                                    <h3>Random Quotes - JavaScript</h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/xVMozo"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/tic-tac-toe.jpg"
+                                        alt="Tic-Tac-Toe Javascript"
+                                /></a>
+                                <header>
+                                    <h3>Tic-Tac-Toe Javascript</h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/aNXgKr"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/SimonGame.jpg"
+                                        alt="Simon Game - Javascript"
+                                /></a>
+                                <header>
+                                    <h3>Simon Game - Javascript</h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/pqodOX"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/DrumMachine.jpg"
+                                        alt="Drum Machine - React"
+                                /></a>
+                                <header>
+                                    <h3>Drum Machine - React</h3>
+                                </header>
+                            </article>
+                        </div>
+
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/rPYbNg"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/WeatherCodePen.jpg"
+                                        alt="Weather - JavaScript Ajax  "
+                                /></a>
+                                <header>
+                                    <h3>Weather - JavaScript Ajax</h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/MyLmQm"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/calculator.jpg"
+                                        alt="Calcular - JavaScript"
+                                /></a>
+                                <header>
+                                    <h3>Calculator - JavaScript</h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/wGNmGg"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/popodoro.jpg"
+                                        alt="Popodoro Clock - JavaScript"
+                                /></a>
+                                <header>
+                                    <h3>Popodoro Clock - JavaScript</h3>
+                                </header>
+                            </article>
+                        </div>
+                    </div>
+
+                    <br />
+                    <h2>D3 JavaScript - Big Data Visualization</h2>
+                    <p>(click to visit)</p>
+                    <div class="row">
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/PXGdaZ"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/d3BarChart.jpg"
+                                        alt="GDP USA - 1945 - 2017"
+                                /></a>
+                                <header>
+                                    <h3>GDP 1945 - 2017 - USA - Bar Chart</h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/jXBKYm"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/d3ChoroplethMap.jpg"
+                                        alt="USA - Adults Percent Under 25 year old with a degree"
+                                /></a>
+                                <header>
+                                    <h3>
+                                        USA - Adults Percent Under 25 year old
+                                        with a degree - Choropleth Map
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/bOgxvG"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/d3HeatMap.jpg"
+                                        alt="Monthly Global Land Surface Temperature"
+                                /></a>
+                                <header>
+                                    <h3>
+                                        Monthly Global Land Surface Temperature
+                                        - Heat Map
+                                    </h3>
+                                </header>
+                            </article>
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/qLreeo"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/d3TreeMap.jpg"
+                                        alt="Hightest Grossing Movies..."
+                                /></a>
+                                <header>
+                                    <h3>
+                                        Hightest Grossing Movies... Tree Map
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="https://codepen.io/barooahn/full/MZbRJJ"
+                                    target="_blank"
+                                    class="image fit"
+                                    ><img
+                                        src="assets/css/images/d3scatterPlot.jpg"
+                                        alt="35 Fastest Finders - Doping Allegations - Scatter Graph"
+                                /></a>
+                                <header>
+                                    <h3>
+                                        35 Fastest Finders - Doping Allegations
+                                        - Scatter Graph
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+                    </div>
+
+                    <br />
+                    <h2>Miscellaneous - Adobe and Ecommerce Guide</h2>
+
+                    <br />
+                    <div class="row">
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <video class="image fit" controls>
+                                    <source
+                                        src="assets/css/images/chicIndahWebsiteVideo.mp4"
+                                        type="video/mp4"
+                                    />
+                                </video>
+
+                                <header>
+                                    <h3>Adobe Premiere - ChicIndah Promo</h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <video class="image fit" controls>
+                                    <source
+                                        src="assets/css/images/eCommerce_business.mp4"
+                                        type="video/mp4"
+                                    />
+                                </video>
+
+                                <header>
+                                    <h3>
+                                        Adobe Premiere - eCommerceNorthWest
+                                        Promo
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <a
+                                    href="assets/css/images/eCommerceNorthWest_guide.pdf"
+                                    target="_blank"
+                                    class="image fit"
+                                    download="eCommerceNorthWest_guide.pdf"
+                                    ><img
+                                        src="assets/css/images/facebook_page.jpg"
+                                        alt="49 Page booklet on Ecommerce - Adobe In Design"
+                                /></a>
+                                <header>
+                                    <h3>
+                                        49 Page Guide On Ecommerce - Adobe In
+                                        Design
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <img
+                                    class="image fit"
+                                    src="assets/css/images/euroMechLogo.jpg"
+                                    alt="49 Page booklet on Ecommerce - Adobe In Design"
+                                />
+                                <header>
+                                    <h3>Graphic design Logos - Illustrator</h3>
+                                </header>
+                            </article>
+                        </div>
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <img
+                                    class="image fit"
+                                    src="assets/css/images/VinPosters.jpg"
+                                    alt="49 Page booklet on Ecommerce - Adobe In Design"
+                                />
+                                <header>
+                                    <h3>
+                                        Graphic design Posters - Photoshop &
+                                        Illustrator
+                                    </h3>
+                                </header>
+                            </article>
+                        </div>
+
+                        <div class="col-4 col-12-mobile">
+                            <article class="item">
+                                <img
+                                    class="image fit"
+                                    src="assets/css/images/LogosForBart.svg"
+                                    alt="49 Page booklet on Ecommerce - Adobe In Design"
+                                />
+                                <header>
+                                    <h3>Graphic design Logos - Illustrator</h3>
+                                </header>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Me -->
+            <section id="about" class="five">
+                <div class="container">
+                    <header>
+                        <h1>About Me</h1>
+                        <h2>
+                            A Journey of Tech, Innovation, and Continuous
+                            Learning
+                        </h2>
+                    </header>
+
+                    <a href="#" target="_blank" class="image featured"
+                        ><img
+                            src="assets/css/images/about_me.jpg"
+                            alt="about me image computer"
+                    /></a>
+
+                    <p>
+                        Driven by a lifelong passion for innovation, my
+                        technology career began in coding, where I crafted
+                        groundbreaking game features. This early experience laid
+                        the foundation for my success in developing
+                        transformative software solutions that have delivered
+                        significant time and cost savings for companies.
+                    </p>
+                    <p>
+                        With expertise spanning the entire design and
+                        development lifecycle, I specialize in creating complex
+                        websites and have recently broadened my skills to
+                        encompass DevOps, Next.js, and GraphQL. This expansion
+                        has significantly enhanced my capabilities as a
+                        developer, positioning me to tackle a diverse range of
+                        projects with efficiency and innovation.
+                    </p>
+                    <p>
+                        As a developer with a keen interest in front-end and
+                        full-stack development, I am particularly fascinated by
+                        the potential of AI technologies like GPT-4 and
+                        Midjourney. My focus is on harnessing these advanced
+                        tools to revolutionize the development process, making
+                        it more efficient and effective.
+                    </p>
+                    <p>
+                        My ongoing journey in AI and technology is geared
+                        towards devising efficient, dynamic, and cutting-edge
+                        solutions. I am committed to driving technological
+                        progress and redefining the industry landscape, aligning
+                        my skills with the evolving needs of employers in the
+                        tech sector."
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <!-- Copyright -->
+            <h3>Let's Connect! Feel free to reach out on</h3>
+            <ul class="copyright">
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/nicholas-barooah-50455015/"
+                        target="_blank"
+                        class="icon fa-linkedin"
+                        ><span class="label">LinkedIn</span></a
+                    >
+                </li>
+
+                <li>
+                    <a
+                        href="https://github.com/barooahn"
+                        target="_blank"
+                        class="icon fa-github"
+                        ><span class="label">Github</span></a
+                    >
+                </li>
+
+                <li>
+                    <a href="mailto:barooahn@gmail.com" class="icon fa-envelope"
+                        ><span class="label">Email</span></a
+                    >
+                </li>
+
+                <li>
+                    <a href="mailto:barooahn@gmail.com"
+                        ><span class="label">barooahn@gmail.com</span></a
+                    >
+                </li>
+            </ul>
+            <h5>for collaborations, opportunities, or just a tech chat.</h5>
+        </div>
+
+        <!-- Scripts -->
+        <script
+            src="https://kit.fontawesome.com/949b5b7e8e.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/dark-theme.js"></script>
+    </body>
+</html>

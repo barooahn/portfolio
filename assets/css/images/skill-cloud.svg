@@ -2,99 +2,102 @@
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 964 392.74">
   <defs>
     <style>
+      .skill-cloud-text {
+        fill: currentColor;
+      }
+      .cls-1,
+      .cls-2,
+      .cls-3,
+      .cls-4,
+      .cls-5,
+      .cls-6,
+      .cls-7,
+      .cls-8,
+      .cls-9,
+      .cls-10,
+      .cls-11,
+      .cls-12,
+      .cls-13,
+      .cls-14,
+      .cls-15,
+      .cls-16,
+      .cls-17,
+      .cls-18,
+      .cls-19,
+      .cls-20,
+      .cls-21 {
+        font-family: CascadiaCode-Regular, 'Cascadia Code';
+        font-variation-settings: 'wght' 400;
+        fill: currentColor; /* Set text fill to currentColor */
+      }
       .cls-1 {
         font-size: 20px;
       }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21 {
-        font-family: CascadiaCode-Regular, 'Cascadia Code';
-        font-variation-settings: 'wght' 400;
-      }
-
       .cls-2 {
         font-size: 20.91px;
       }
-
       .cls-3 {
         font-size: 53.62px;
       }
-
       .cls-4 {
         font-size: 32.91px;
       }
-
       .cls-5 {
         font-size: 17px;
       }
-
       .cls-6 {
         font-size: 27.7px;
       }
-
       .cls-7 {
         font-size: 15.05px;
       }
-
       .cls-8 {
         font-size: 24.46px;
       }
-
       .cls-9 {
         font-size: 32.39px;
       }
-
       .cls-10 {
         font-size: 25.6px;
       }
-
       .cls-11 {
         font-size: 21px;
       }
-
       .cls-12 {
         font-size: 20.48px;
       }
-
       .cls-13 {
         font-size: 29.75px;
       }
-
       .cls-14 {
         font-size: 27.89px;
       }
-
       .cls-15 {
         font-size: 16.87px;
       }
-
       .cls-16 {
         font-size: 28.7px;
       }
-
       .cls-17 {
         font-size: 41.81px;
       }
-
       .cls-18 {
         font-size: 22.95px;
       }
-
       .cls-19 {
         font-size: 24.14px;
       }
-
       .cls-20 {
         font-size: 17.71px;
       }
-
       .cls-21 {
         font-size: 20.14px;
       }
     </style>
   </defs>
-  <g id="Layer_1-2" data-name="Layer 1">
-    <g>
-      <text class="cls-16" transform="translate(0 224.94)"><tspan x="0" y="0">Scrum / Aglile</tspan></text>
+  <g id="Layer_1-2" data-name="Layer 1" class="skill-cloud-text">
+    <g class="skill-cloud-text">
+      <text class="cls-16" transform="translate(0 224.94)"><tspan x="0" y="0">Scrum / Agile</tspan></text>
       <text class="cls-17" transform="translate(108.76 140.2)"><tspan x="0" y="0">NextJS</tspan></text>
       <text class="cls-4" transform="translate(184.94 60.85)"><tspan x="0" y="0">ReactJS</tspan></text>
       <text class="cls-13" transform="translate(332.24 115.23)"><tspan x="0" y="0">JavaScript</tspan></text>
